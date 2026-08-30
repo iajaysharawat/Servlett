@@ -28,7 +28,7 @@ public class ThirdServlet extends HttpServlet {
         writer.print("<h1>Third Post Servlet</h1>");
         Date date=new Date();
         writer.print("""
-                <h2>Message : %s</h2>
+                <h2>Message Heelo: %s</h2>
                 <h2>Current Date is : %s</h3>
                 """.formatted(message,date));
     }
